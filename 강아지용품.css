@@ -1,0 +1,127 @@
+body{
+  font-family: "맑은 고딕","고딕","굴림";
+  width: 960px;
+  margin: 0 auto;
+}
+
+header{
+  background: rgb(2,7,21);
+  height: 100px;
+}
+
+nav ul li{
+  display: inline-block;
+  padding: 20;/*글자하고 붙지않게 하기 위해서 패딩*/
+  margin: 40px; /*마진값을 크게 줘서 중앙쯤에 위치*/
+}
+
+nav a{
+  text-decoration: none; /*밑줄 없애기*/
+  color: white;
+  font-weight: bold;
+  font-size: 18;
+}
+
+h1{
+  padding-left: 10px;
+}
+
+/*section*/
+section{
+  width: 740px;
+  padding: 10px;
+  float: left;
+}
+
+article{
+  width: 320px;
+  height: 270px;
+  border: 1px solid #020715;
+  padding: 10px;
+  margin: 5px;
+  float: left;
+}
+
+/*aside*/
+aside{
+  width: 200px;
+  float: right;
+}
+
+aside img{
+  width: 195px;
+  height: 200px;
+}
+/*footer*/
+footer{
+  clear: both;
+  padding: 10px;
+  background: #020715;
+  color: white;
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+}
+/*    body {
+  width: 960px;
+  margin: 0 auto;
+}
+
+
+header {
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: #020715;
+}
+
+header li {
+  display: inline-block;
+}
+
+a {
+  margin: 10px;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+article {
+  float: left;
+  border: 1px solid #000;
+  width: 330px;
+  height: 270px;
+  padding: 10px;
+  margin: 10px;
+}
+
+article p {
+  text-align: justify;
+  line-height: 1.5;
+}
+
+section {
+  width: 750px;
+  float: left;
+}
+
+aside img {
+  width: 150px;
+}
+
+aside {
+  width: 180px;
+  float: right;
+  text-align: right;
+  padding-top: 10px;
+}
+
+footer {
+  clear: both;
+  padding: 10px;
+  background-color: #020715;
+  color: white;
+  font-style: italic;
+  text-align: center;
+  font-weight: bold;
+} */
